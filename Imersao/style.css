@@ -3,6 +3,10 @@
 
 /* Estiliza o corpo da página */
 body {
+    background-image: url('nbabg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: #DDDDDD; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
@@ -17,7 +21,7 @@ body {
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #97a4b8; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -71,7 +75,7 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
+    background: #dfd3d3; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
@@ -103,15 +107,7 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    padding: 0; /* Espaçamento interno */
-    width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
-    bottom: 0; /* Alinha ao fundo da página */
-    font-size: 1rem; /* Tamanho da fonte */
-}
+    
 
 @media (max-width: 768px) {
     h1 {
